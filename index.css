@@ -1,0 +1,90 @@
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 90%;
+    margin: 1em auto;
+    background: #28282b;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    height: 20vh;
+    padding: 1.5em;
+}
+.box1
+{
+   /* background: red; */
+   height: fit-content;
+   padding: 10px;
+   cursor: pointer;
+}
+.box2
+{
+   /* background: yellow; */
+   height: fit-content;
+   padding: 10px;
+   cursor: pointer;
+}
+.box3
+{
+   /* background: blue; */
+   height: fit-content;
+   padding: 10px;
+   cursor: pointer;
+} 
+.active
+{
+    background-color: #fff;
+}
+.main
+{
+    margin: 2em auto;
+    width: 500px;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    animation: class .1s linear;
+}
+.main2,.main3
+{
+    display: none;
+}
+.love
+{
+    width: 500px;
+    background-color: red;
+    padding: 10px;
+    margin: 2em auto;
+}
+.class
+{
+    margin: 2em auto;
+    width: 500px;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    /* animation: class .2s linear; */
+}
+
+@keyframes class
+{
+    0%
+    {
+        transform: translateX(400px);
+    }
+}
+
+
+
+
+
+
